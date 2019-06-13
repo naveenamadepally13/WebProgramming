@@ -9,3 +9,9 @@
 5. The screenshots displayed as images are clickable, on click it redirects to the location of the image in the documentation.
 6. The page also has a relevant YouTube video with controls like play, pause, etc.
 7. Wiki link for ICP1 : https://github.com/naveenamadepally13/WebProgramming/wiki/ICP1
+
+## ICP2:
+
+1. Making given caliculator code responsive and mofifying the design.
+2. Creating a sample resume according the template provided that is responsive.
+3. Wiki link for ICP1 : https://github.com/naveenamadepally13/WebProgramming/wiki/ICP2
