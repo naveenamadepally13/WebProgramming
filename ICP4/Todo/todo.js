@@ -10,10 +10,10 @@ app.controller('todoCtrl', function($scope) {
 
     $scope.remove = function(value) {
         var oldList = $scope.todoList;
-        $scope.todoList = [];
+        //$scope.todoList = [];
         angular.forEach(oldList, function(x) {
-            if (value === x.value)
-                $scope.todoList.push(x);
+            if (value === x.Tod)
+                $scope.todoList.pop(x);
            // $scope.items.splice(index, 1);
         });
         console.log($scope.todoList);
