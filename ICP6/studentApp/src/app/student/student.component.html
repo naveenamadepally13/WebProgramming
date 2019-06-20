@@ -1,0 +1,47 @@
+<div style="padding-top: 20px">
+<div class="card" style="border: none;font-size: smaller">
+  <h4 class="card-header text-center font-weight-bold text-uppercase py-2">student Details</h4>
+  <div class="card-body">
+    <div id="table" class="table-editable">
+      <span class="table-add float-right mb-3 mr-2">
+       <button class="btn" (click)="open()"> <i class="fa fa-plus">
+         Add student
+       </i></button>
+      </span>
+      <table class="table table-bordered table-responsive-md table-striped text-center">
+        <tr>
+          <th class="text-center">S.No</th>
+          <th class="text-center">First Name</th>
+          <th class="text-center">Last Name</th>
+          <th class="text-center">Email</th>
+          <th class="text-center">Address</th>
+          <th class="text-center">Phone</th>
+          <th class="text-center">Registered Date</th>
+          <th class="text-center">Edit</th>
+          <th class="text-center">Delete</th>
+        </tr>
+          <tr *ngFor="let studentData of students; let id = index ">
+            <td class="pt-3-half" contenteditable="true">{{ id+1 }}</td>
+            <td class="pt-3-half" contenteditable="true">{{studentData.firstName}}</td>
+            <td class="pt-3-half" contenteditable="true">{{studentData.lastName}}</td>
+            <td class="pt-3-half" contenteditable="true">{{studentData.emailAddress}}</td>
+            <td class="pt-3-half" contenteditable="true">{{studentData.address}}</td>
+            <td class="pt-3-half" contenteditable="true">{{studentData.phoneNo}}</td>
+            <td class="pt-3-half" contenteditable="true">{{studentData.date | date:"MMM d y"}}</td>
+            <td class="pt-3-half">
+              <button class="btn" (click)="edit(studentData)">
+                <span><i class="fas fa-edit"></i>
+              </span>
+              </button>
+            </td>
+            <td class="pt-3-half">
+              <button class="btn" (click)="delete(studentData)">
+              <span><i class="fas fa-trash-alt"></i></span>
+              </button>
+            </td>
+          </tr>
+      </table>
+    </div>
+  </div>
+</div>
+</div>
