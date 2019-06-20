@@ -1,0 +1,470 @@
+[
+  {
+    "name": "ALPHABET",
+    "parent": "US",
+    "children": [
+      {
+        "name": "A",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Android",
+            "size": 3938
+          },
+          {
+            "name": "AdSense",
+            "size": 3128
+          },
+          {
+            "name": "Analytics",
+            "size": 3678
+          },
+          {
+            "name": "Ara",
+            "size": 3788
+          },
+          {
+            "name": "AdMob",
+            "parent": "A"
+          },
+          {
+            "name": "Alerts",
+            "parent": "A"
+          }
+        ]
+      },
+      {
+        "name": "B",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Blogger",
+            "parent": "B"
+          },
+          {
+            "name": "Boston Dynamics",
+            "parent": "B"
+          },
+          {
+            "name": "Books",
+            "parent": "B"
+          }
+        ]
+      },
+      {
+        "name": "C",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Calico",
+            "parent": "C"
+          },
+          {
+            "name": "Cardboard",
+            "parent": "C"
+          },
+          {
+            "name": "Capital",
+            "parent": "C"
+          },
+          {
+            "name": " contact lenses",
+            "parent": "C"
+          }
+        ]
+      },
+      {
+        "name": "D",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Drive",
+            "parent": "D"
+          },
+          {
+            "name": "DeepMind",
+            "parent": "D"
+          },
+          {
+            "name": "Design",
+            "parent": "D"
+          },
+          {
+            "name": "DoubleClick",
+            "parent": "D"
+          }
+        ]
+      },
+      {
+        "name": "E",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Earth",
+            "parent": "E"
+          },
+          {
+            "name": "Express",
+            "parent": "E"
+          }
+        ]
+      },
+      {
+        "name": "F",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Fiber",
+            "parent": "F"
+          },
+          {
+            "name": "Fi",
+            "parent": "F"
+          },
+          {
+            "name": "Flights",
+            "parent": "F"
+          },
+          {
+            "name": "FeedBurner",
+            "parent": "F"
+          },
+          {
+            "name": "Firebase",
+            "parent": "F"
+          },
+          {
+            "name": "Finance",
+            "parent": "F"
+          }
+        ]
+      },
+      {
+        "name": "G",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Google",
+            "parent": "G"
+          },
+          {
+            "name": "Gmail",
+            "parent": "G"
+          },
+          {
+            "name": "Glass",
+            "parent": "G"
+          },
+          {
+            "name": "Group",
+            "parent": "G"
+          }
+        ]
+      },
+      {
+        "name": "H",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Hangouts",
+            "parent": "H"
+          }
+        ]
+      },{
+        "name": "I",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Images",
+            "parent": "I"
+          },
+          {
+            "name": "Ingress",
+            "parent": "I"
+          },
+          {
+            "name": "Inbox",
+            "parent": "I"
+          },
+          {
+            "name": "Invite Media",
+            "parent": "I"
+          }
+        ]
+      },{
+        "name": "J",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Jump",
+            "parent": "J"
+          }
+        ]
+      },{
+        "name": "K",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Keep",
+            "parent": "K"
+          }
+        ]
+      },{
+        "name": "L",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Local",
+            "parent": "L"
+          },
+          {
+            "name": "Loon",
+            "parent": "L"
+          }
+        ]
+      },{
+        "name": "M",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Maps",
+            "parent": "M"
+          },
+          {
+            "name": "My Business",
+            "parent": "M"
+          },
+          {
+            "name": "Makani",
+            "parent": "M"
+          }
+        ]
+      },
+      {
+        "name": "N",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Nexus",
+            "parent": "N"
+          },
+          {
+            "name": "News",
+            "parent": "M"
+          },
+          {
+            "name": "Now",
+            "parent": "M"
+          },
+          {
+            "name": "Nest",
+            "parent": "N"
+          }
+        ]
+      },
+      {
+        "name": "O",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Offers",
+            "parent": "O"
+          }
+        ]
+      },
+      {
+        "name": "P",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Plus",
+            "parent": "P"
+          },
+          {
+            "name": "Play",
+            "parent": "M"
+          },
+          {
+            "name": "Photos",
+            "parent": "M"
+          },
+          {
+            "name": "Picasa",
+            "parent": "M"
+          },
+          {
+            "name": "Pixate",
+            "parent": "M"
+          },
+          {
+            "name": "Patents",
+            "parent": "P"
+          }
+        ]
+      },
+      {
+        "name": "Q",
+        "parent": "US",
+        "children": [
+          {
+            "name": "queue",
+            "parent": "Q"
+          }
+        ]
+      },
+      {
+        "name": "R",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Refine",
+            "parent": "R"
+          },
+          {
+            "name": "reCaptcha",
+            "parent": "R"
+          }
+        ]
+      },
+      {
+        "name": "S",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Search",
+            "parent": "S"
+          },
+          {
+            "name": "Self-driving cars",
+            "parent": "M"
+          },
+          {
+            "name": "Shopping",
+            "parent": "M"
+          },
+          {
+            "name": "SageTV",
+            "parent": "M"
+          },
+          {
+            "name": "Stackdriver",
+            "parent": "M"
+          },
+          {
+            "name": "skybox",
+            "parent": "M"
+          },{
+            "name": "Skia",
+            "parent": "M"
+          },
+          {
+            "name": "Scholar",
+            "parent": "S"
+          }
+        ]
+      },
+      {
+        "name": "T",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Translate",
+            "parent": "T"
+          },
+          {
+            "name": "Tango",
+            "parent": "T"
+          }
+        ]
+      },
+      {
+        "name": "U",
+        "parent": "US",
+        "children": [
+          {
+            "name": "URL Shortener",
+            "parent": "U"
+          }
+        ]
+      },
+      {
+        "name": "V",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Voice",
+            "parent": "V"
+          },
+          {
+            "name": "Ventures",
+            "parent": "M"
+          },
+          {
+            "name": "VirusTotal",
+            "parent": "M"
+          },
+          {
+            "name": "Video",
+            "parent": "V"
+          }
+        ]
+      },
+      {
+        "name": "W",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Wear",
+            "parent": "W"
+          },
+          {
+            "name": "Wallet",
+            "parent": "M"
+          },
+          {
+            "name": "Web Toolkit",
+            "parent": "M"
+          },
+          {
+            "name": "Wing",
+            "parent": "W"
+          }
+        ]
+      },
+      {
+        "name": "X",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Google x labs",
+            "parent": "X"
+          }
+        ]
+      },
+      {
+        "name": "Y",
+        "parent": "US",
+        "children": [
+          {
+            "name": "YouTube",
+            "parent": "Y"
+          }
+        ]
+      },
+      {
+        "name": "Z",
+        "parent": "US",
+        "children": [
+          {
+            "name": "Project Zero",
+            "parent": "M"
+          },
+          {
+            "name": "Zagat",
+            "parent": "Z"
+          }
+        ]
+      }
+    ]
+  }
+]
