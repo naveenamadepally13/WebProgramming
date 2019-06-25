@@ -1,0 +1,47 @@
+<div style="padding-top: 20px">
+<div class="card" style="border: none;font-size: smaller">
+  <h4 class="card-header text-center font-weight-bold text-uppercase py-2">book Details</h4>
+  <div class="card-body">
+    <div id="table" class="table-editable">
+      <span class="table-add float-right mb-3 mr-2">
+       <button class="btn" (click)="open()"> <i class="fa fa-plus">
+         Add book
+       </i></button>
+      </span>
+      <table class="table table-bordered table-responsive-md table-striped text-center">
+        <tr>
+          <th class="text-center">S.No</th>
+          <th class="text-center">Book Name</th>
+          <th class="text-center">Author Name</th>
+          <th class="text-center">Copies</th>
+          <th class="text-center">Edition</th>
+          <th class="text-center">isbn</th>
+          <th class="text-center">Registered Date</th>
+          <th class="text-center">Edit</th>
+          <th class="text-center">Delete</th>
+        </tr>
+          <tr *ngFor="let bookData of books; let id = index ">
+            <td class="pt-3-half" contenteditable="true">{{ id+1 }}</td>
+            <td class="pt-3-half" contenteditable="true">{{bookData.bookName}}</td>
+            <td class="pt-3-half" contenteditable="true">{{bookData.authorName}}</td>
+            <td class="pt-3-half" contenteditable="true">{{bookData.noOfCopies}}</td>
+            <td class="pt-3-half" contenteditable="true">{{bookData.edition}}</td>
+            <td class="pt-3-half" contenteditable="true">{{bookData.isbn}}</td>
+            <td class="pt-3-half" contenteditable="true">{{bookData.date | date:"MMM d y"}}</td>
+            <td class="pt-3-half">
+              <button class="btn" (click)="edit(bookData)">
+                <span><i class="fas fa-edit"></i>
+              </span>
+              </button>
+            </td>
+            <td class="pt-3-half">
+              <button class="btn" (click)="delete(bookData)">
+              <span><i class="fas fa-trash-alt"></i></span>
+              </button>
+            </td>
+          </tr>
+      </table>
+    </div>
+  </div>
+</div>
+</div>

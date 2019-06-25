@@ -1,0 +1,34 @@
+<div style="padding: 30px">
+  <div class="card" style="border: none;">
+    <h4 class="card-header text-center font-weight-bold text-uppercase py-2">Add book</h4>
+    <div class="card">
+      <div class="card-body">
+        <form #bookCreate = "ngForm" (ngSubmit)="addbook(bookCreate.value)" class="form-horizontal">
+          <div class="form-group">
+            <label class="col-md-4">Book Name</label>
+            <input type="text" class="form-control" style="height: 30px" name="bookName" ngModel/>
+          </div>
+          <div class="form-group">
+            <label class="col-md-4">Author Name </label>
+            <input type="text" class="form-control" style="height: 30px" name="authorName" ngModel/>
+          </div>
+          <div class="form-group">
+            <label class="col-md-4">Copies </label>
+            <input type="text" class="form-control"  style="height: 30px" name="noOfCopies" ngModel/>
+          </div>
+          <div class="form-group">
+            <label class="col-md-4">Edition</label>
+            <input type="text" class="form-control" style="height: 30px" name="edition" ngModel/>
+          </div>
+          <div class="form-group">
+            <label class="col-md-4">ISBN</label>
+            <input type="text" class="form-control" style="height: 30px" name="isbn" ngModel/>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary">Add book</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

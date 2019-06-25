@@ -1,0 +1,34 @@
+<div style="padding: 30px">
+  <div class="card" style="border: none;">
+    <h4 class="card-header text-center font-weight-bold text-uppercase py-2">Update book</h4>
+    <div class="card">
+      <div class="card-body">
+        <form #bookUpdate = "ngForm" (ngSubmit)="onUpdatebook(bookUpdate.value)" class="form-horizontal">
+          <div class="form-group">
+            <label class="col-md-4">Book Name</label>
+            <input type="text" class="form-control" style="height: 30px" name="bookName" [(ngModel)]="bookService.editdata.bookName"/>
+          </div>
+          <div class="form-group">
+            <label class="col-md-4">Author Name</label>
+            <input type="text" class="form-control" style="height: 30px" name="authorName" [(ngModel)]="bookService.editdata.authorName"/>
+          </div>
+          <div class="form-group">
+            <label class="col-md-4">Copies </label>
+            <input type="text" class="form-control" style="height: 30px" name="noOfCopies" [(ngModel)]="bookService.editdata.noOfCopies"/>
+          </div>
+          <div class="form-group">
+            <label class="col-md-4">Edition </label>
+            <input type="text" class="form-control"  style="height: 30px" name="edition" [(ngModel)]="bookService.editdata.edition"/>
+          </div>
+          <div class="form-group">
+            <label class="col-md-4">ISBN</label>
+            <input type="text" class="form-control" style="height: 30px" name="isbn" [(ngModel)]="bookService.editdata.isbn"/>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary" >Update book</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

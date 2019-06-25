@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+.backcss{
+  background-image: url('assets/images/book.jpg');
+  background-size: cover;
+  background-blend-mode: soft-light;
+  background-color: silver;
+}
+
+.backBorder
+{
+  border: none;
+  -webkit-box-shadow: -1px 1px 5px 6px rgba(245,228,245,1);
+  -moz-box-shadow: -1px 1px 5px 6px rgba(245,228,245,1);
+  box-shadow: -1px 1px 5px 6px rgba(245,228,245,1);
+}

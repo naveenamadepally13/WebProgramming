@@ -1,0 +1,24 @@
+.pt-3-half {
+  padding-top: 1.4rem;
+}
+.fa-plus{
+  color : #00A076;
+}
+.fa-edit{
+  color : #007289;
+}
+.fa-trash-alt{
+  color : #D3144E;
+}
+h4{
+  color: white;
+  background: indianred;
+}
+th{
+  color: black;
+  background: lightgoldenrodyellow;
+}
+.btn:hover {
+  background-color: aliceblue;
+}
+
