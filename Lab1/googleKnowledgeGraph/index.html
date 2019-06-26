@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Knowledge Graph</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body ng-app="myapp" style="background-image: url('img.jpg');
+  background-blend-mode: screen;    overflow-x: hidden;
+  background-color: gray;" ng-controller="mycontroller" >
+<!--<div ng-repeat="item in itemListElement">
+{{item.result.name}}
+</div>-->
+<!--<button ng-show="hasMoreItemsToShow()" ng-click="showMoreItems()">Show more</button>-->
+<div class="row" style="height: 70px;background-color: #337ab7;color: white;align-items: center;padding-left: 30px">
+    <h1>Knowledge Graph</h1>
+</div>
+<div class="row" style="    padding-top: 50px;
+    align-content: center;
+    padding-left: 25%;">
+    <div class="col-md-4">
+        <label>
+            <input placeholder="Enter text to search" type="text" style="width: 150%;
+    height: 50px;
+    border-color: steelblue;
+    border-style: solid;
+    border-radius: 23px;
+padding: 10px" />
+        </label>
+    </div>
+    <button class="bg-primary"> Search </button>
+</div>
+
+<!--<div class="row" style="height: 50px;width: 100%;background-color: #337ab7;color: white;align-items: center;padding-left: 30px">
+    footer
+</div>-->
+</body>
+</html>
