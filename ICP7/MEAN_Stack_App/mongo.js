@@ -1,6 +1,3 @@
-/**
- * Created by karthik on 7/14/17.
- */
 var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
 var bodyParser = require("body-parser");

@@ -5,36 +5,50 @@
     <title>Knowledge Graph</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
-<body ng-app="myapp" style="background-image: url('img.jpg');
-  background-blend-mode: screen;    overflow-x: hidden;
-  background-color: gray;" ng-controller="mycontroller" >
-<!--<div ng-repeat="item in itemListElement">
-{{item.result.name}}
-</div>-->
-<!--<button ng-show="hasMoreItemsToShow()" ng-click="showMoreItems()">Show more</button>-->
-<div class="row" style="height: 70px;background-color: #337ab7;color: white;align-items: center;padding-left: 30px">
+<body ng-app="myapp" ng-controller="mycontroller" >
+<div class="row title">
     <h1>Knowledge Graph</h1>
 </div>
-<div class="row" style="    padding-top: 50px;
-    align-content: center;
-    padding-left: 25%;">
+<div class="row body-content">
     <div class="col-md-4">
         <label>
-            <input placeholder="Enter text to search" type="text" style="width: 150%;
-    height: 50px;
-    border-color: steelblue;
-    border-style: solid;
-    border-radius: 23px;
-padding: 10px" />
+            <input placeholder="Enter text to search" type="text" class="searchbox" ng-model="str" />
         </label>
     </div>
-    <button class="bg-primary"> Search </button>
+   <button class="bg-primary searchbtn" ng-click="getData('')"> Search </button>
 </div>
-
-<!--<div class="row" style="height: 50px;width: 100%;background-color: #337ab7;color: white;align-items: center;padding-left: 30px">
-    footer
-</div>-->
+<div class="kgdiv">
+<div style="padding: 10px;" class="row ">
+    <div class="col-md-8">
+        <h1 ng-show="!mainContent" class="ng-hide">Search for data!!!!!!!!!</h1>
+        <h1>{{mainContent.name}}</h1>
+        <span><b>{{mainContent.description}}</b></span>
+        <p>{{mainContent.detailedDescription.articleBody}}
+            <a href={{mainContent.detailedDescription.url}} target="_blank">{{mainContent.detailedDescription.url}}</a></p>
+    </div>
+    <div class="col-md-4">
+        <img style="    width: 150px;
+    float: right;" src={{mainContent.image.contentUrl}} />
+    </div>
+</div>
+    <div style="padding: 25px;" class="row">
+        <h5 ng-show="mainContent" class="ng-hide"><b>Related Things</b></h5>
+        <div class = "col-md-3"ng-repeat="item in data" ng-if="item.result['@type'][0] == 'Thing' && $index <= 4" myattr={{$index}} >
+            <img style="width: 200px;height: 150px" alt="No Image Found!" src={{item.result.image.contentUrl}} />
+            <span><b><button class="linkbtn" ng-model="str" ng-click="getData(item.result.name)">{{item.result.name}}</button></b></span>
+        </div>
+    </div>
+    <div style="padding: 25px;" class="row">
+        <h5 ng-show="mainContent" class="ng-hide"><b>Related Company</b></h5>
+        <div class = "col-md-3"ng-repeat="item in data" ng-if="item.result['@type'][0] == 'Corporation' || item.result['@type'][0] == 'Organization'
+||item.result['@type'][0] =='Restaurant' && $index <= 4" myattr={{$index}} >
+            <img style="width: 200px;height: 150px" alt="No Image Found!" src={{item.result.image.contentUrl}} />
+            <span><b><button class="linkbtn" ng-model="str" ng-click="getData(item.result.name)">{{item.result.name}}</button></b></span>
+        </div>
+    </div>
+</div>
 </body>
 </html>
