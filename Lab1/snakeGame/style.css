@@ -1,0 +1,48 @@
+body {
+    background-image: url("snake.jpg");
+    background-size: cover;
+}
+
+
+.gameboard{
+    width: 440px;
+    height: auto;
+    margin: 20px auto;
+}
+.game-column {
+    border: 1px solid gray;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.gameFooter {
+    width: 60%;
+    height: 26px;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+.gameFooter:hover {
+    color: midnightblue;
+    cursor: pointer;
+}
+.header {
+    width: 64%;
+    height: 60px;
+    padding: 0;
+    margin-top: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.scores {
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-right: 25px;
+}
+.scoreBoard{
+    height: 100%;
+    width: 45%;
+}

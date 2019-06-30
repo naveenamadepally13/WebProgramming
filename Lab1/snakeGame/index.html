@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app='snakeGame'>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body ng-controller="snakeGameController">
+
+<div class="gameboard">
+    <div class="row" style="margin-top: 5px;">
+        <div class="row header">
+            <div class="col-md-8  scoreBoard" style="float: left;padding-top: 15px">
+                <b>Snake Game</b>
+            </div>
+            <div class="col-md-4  scoreBoard" style="float: right; text-align: right;">
+                <div class="scores">
+                    <span class="score">{{"Score: " + score}}</span><br>
+                    <span class="best-score" style="font-size: 12px;">{{"Best Score: " + bestScore}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="height: 19px;" ng-repeat="column in board">
+            <div class=" game-column"
+                 ng-style="{'background-color': setStyling($parent.$index, $index)}"
+                 ng-repeat="row in column track by $index"
+            ></div>
+        </div>
+     <div class="row">
+    <div clas=="col-md-12" class="gameFooter" ng-click="startGame()">Start Game</div>
+     </div>
+</div>
+
+</body>
+
+</html>
