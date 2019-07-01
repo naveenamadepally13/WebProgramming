@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Online Shopping</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="signin.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div id="nav-placeholder"></div>
+
+<script>
+    $(function(){
+        $("#nav-placeholder").load("nav.html");
+    });
+</script>
+<div class="container">
+    <div class="jumbotron">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/network.jpg" alt="course 1" width="200" height="200">
+            <div class="card-body">
+                <h5 class="card-title">Network Architecture</h5>
+                <a href="#" class="btn btn-success">Start Course</a>
+            </div>
+        </div><br>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/web.jpg" alt="course 2" width="200" height="200">
+            <div class="card-body">
+                <h5 class="card-title">Basics of HTML/CSS</h5>
+                <a href="#" class="btn btn-success">Start Course</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>

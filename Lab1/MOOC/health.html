@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="signin.js"></script>
+    <title>Design Courses</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        .navbar-nav li:hover > ul.dropdown-menu {
+            display: block;
+        }
+        .dropdown-submenu {
+            position:relative;
+        }
+        .dropdown-submenu>.dropdown-menu {
+            top:0;
+            left:100%;
+            margin-top:-6px;
+        }
+
+        /* rotate caret on hover */
+        .dropdown-menu > li > a:hover:after {
+            text-decoration: underline;
+            transform: rotate(-90deg);
+        }
+    </style>
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<script>
+    $(function(){
+        $("#nav-placeholder").load("nav.html");
+    });
+</script>
+
+<div class="row">
+    <div class="col-lg-4 col-md-4 col-xs-4 thumb">
+        <div class="container">
+            <img src="images/health1.png" alt="health1" class="img-thumbnail" width="204" height="136">
+            <div class="caption">
+                <h4 class="desc">Contemplative Practices</h4>
+                <div class="clearfix">
+                    <div class="detail">Learn about healthe living.</div>
+                    <a href="#" class="btn btn-info" role="button">Start Course</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-xs-4 thumb">
+        <div class="container">
+            <img src="images/health3.jpg" alt="health2" class="img-thumbnail" width="204" height="136">
+            <div class="caption">
+                <h4 class="desc">Nutrition & Weight</h4>
+                <div class="clearfix">
+                    <div class="detail">Learn nutritional facts</div>
+                    <a href="#" class="btn btn-info" role="button">Start Course</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-xs-4 thumb">
+        <div class="container">
+            <img src="images/health2.jpg" alt="health3" class="img-thumbnail" width="204" height="136">
+            <div class="caption">
+                <h4 class="desc">Stress & Resiliency</h4>
+                <div class="clearfix">
+                    <div class="detail">Tips and tricks with Stress management</div>
+                    <a href="#" class="btn btn-info" role="button">Start Course</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
