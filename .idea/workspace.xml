@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de405eed-dcff-4e12-8e22-e026f9b9bf10" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ICP1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ICP1/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.img-res</find>
+      <find>preview</find>
+      <find>focus</find>
+      <find>grid-container</find>
+      <find>addBOx</find>
+      <find>#color</find>
+      <find>color</find>
+      <find>addBox</find>
+      <find>wishes</find>
+      <find>pending</find>
+      <find>remove</find>
+      <find>updateTotal</find>
+      <find>reset</find>
+      <find>mongo</find>
+      <find>menu</find>
+      <find>COLORS</find>
+      <find>backroundColors</find>
+      <find>BOARD</find>
+      <find>score</find>
+      <find>gameBoardSize</find>
+      <find>createBoard</find>
+      <find>1.5</find>
+      <find>board</find>
+      <find>resetFruit</find>
+      <find>update</find>
+      <find>row</find>
+      <find>column</find>
+      <find>startGame</find>
+      <find>startGamegameFooter</find>
+      <find>setStyling</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ICP6/studentApp/dbConfig.js" />
+        <option value="$PROJECT_DIR$/ICP6/studentApp/routes/student.js" />
+        <option value="$PROJECT_DIR$/ICP6/studentApp/models/studentModel.js" />
+        <option value="$PROJECT_DIR$/ICP6/studentApp/src/app/student-service.service.ts" />
+        <option value="$PROJECT_DIR$/ICP6/D3/flare.json" />
+        <option value="$PROJECT_DIR$/ICP5/ICE-Restaurants for U/index.html" />
+        <option value="$PROJECT_DIR$/ICP7/Web_Lesson7_SourceCode/UseCase/MEAN_Stack_App/mongo.js" />
+        <option value="$PROJECT_DIR$/ICP7/library management system/dbConfig.js" />
+        <option value="$PROJECT_DIR$/ICP7/library management system/src/app/book-create/book-create.component.html" />
+        <option value="$PROJECT_DIR$/ICP7/library management system/src/app/book-create/book-create.component.ts" />
+        <option value="$PROJECT_DIR$/ICP7/library management system/src/app/book-update/book-update.component.html" />
+        <option value="$PROJECT_DIR$/ICP7/library management system/src/app/book-update/book-update.component.ts" />
+        <option value="$PROJECT_DIR$/ICP7/library management system/src/app/book/book.component.html" />
+        <option value="$PROJECT_DIR$/ICP7/library management system/models/bookModel.js" />
+        <option value="$PROJECT_DIR$/ICP7/library management system/src/app/book/book.component.css" />
+        <option value="$PROJECT_DIR$/ICP7/library management system/src/app/book-create/book-create.component.css" />
+        <option value="$PROJECT_DIR$/ICP7/source/mongo.js" />
+        <option value="$PROJECT_DIR$/ICP7/source/home.html" />
+        <option value="$PROJECT_DIR$/ICP7/source/addBook.html" />
+        <option value="$PROJECT_DIR$/ICP7/UseCase/MEAN_Stack_App/home.html" />
+        <option value="$PROJECT_DIR$/ICP7/UseCase/MEAN_Stack_App/package.json" />
+        <option value="$PROJECT_DIR$/ICP7/UseCase/MEAN_Stack_App/mongo.js" />
+        <option value="$PROJECT_DIR$/ICP7/MEAN_Stack_App/mongo.js" />
+        <option value="$PROJECT_DIR$/Lab1/googleKnowledgeGraph/script.js" />
+        <option value="$PROJECT_DIR$/Lab1/googleKnowledgeGraph/style.css" />
+        <option value="$PROJECT_DIR$/Lab1/googleKnowledgeGraph/index.html" />
+        <option value="$PROJECT_DIR$/Lab1/ngx-snake-master/ngx-snake-master/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/Lab1/ngx-snake-master/ngx-snake-master/src/index.html" />
+        <option value="$PROJECT_DIR$/Lab1/ngx-snake-master/ngx-snake-master/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/Lab1/ngx-snake-master/ngx-snake-master/src/app/app.component.css" />
+        <option value="$PROJECT_DIR$/Lab1/ngx-snake-master/ngx-snake-master/src/app/app.constants.ts" />
+        <option value="$PROJECT_DIR$/Lab1/snakegame/index.html" />
+        <option value="$PROJECT_DIR$/Lab1/snakegame/app.js" />
+        <option value="$PROJECT_DIR$/Lab1/snakegame/style.css" />
+        <option value="$PROJECT_DIR$/Lab1/snakeGame/style.css" />
+        <option value="$PROJECT_DIR$/Lab1/snakeGame/index.html" />
+        <option value="$PROJECT_DIR$/Lab1/snakeGame/app.js" />
+        <option value="$PROJECT_DIR$/Lab1/MOOCWebApp/css.css" />
+        <option value="$PROJECT_DIR$/ICP4/Todo/main.css" />
+        <option value="$PROJECT_DIR$/Lab1/task1/index.html" />
+        <option value="$PROJECT_DIR$/Lab1/MOOCWebApp/script.js" />
+        <option value="$PROJECT_DIR$/Lab1/MOOCWebApp/style.css" />
+        <option value="$PROJECT_DIR$/Lab1/MOOCWebApp/angularjs.html" />
+        <option value="$PROJECT_DIR$/Lab1/MOOCWebApp/bootstrap.html" />
+        <option value="$PROJECT_DIR$/Lab1/MOOCWebApp/index.html" />
+        <option value="$PROJECT_DIR$/Lab1/MOOCWebApp/HTML.html" />
+        <option value="$PROJECT_DIR$/Lab1/MOOC/index.html" />
+        <option value="$PROJECT_DIR$/Lab1/MOOC/signin.html" />
+        <option value="$PROJECT_DIR$/Lab1/MOOC/user.html" />
+        <option value="$PROJECT_DIR$/Lab1/MOOC/mycourses.html" />
+        <option value="$PROJECT_DIR$/Lab1/MOOC/nav.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1376" />
+    <option name="height" value="784" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WebProgramming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebProgramming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebProgramming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebProgramming" type="462c0819:PsiDirectoryNode" />
+              <item name="ICP9" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="11.7.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="E:\WebProgramming\ICP7\library management system\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WebProgramming\Lab1\MOOCWebApp" />
+      <recent name="E:\WebProgramming\Lab1\snakegame" />
+      <recent name="E:\WebProgramming" />
+      <recent name="E:\WebProgramming\ICP3" />
+      <recent name="E:\WebProgramming\ICP2\screenshots" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.rpc.html (1)">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/WebProgramming/ICP2/Calculator/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="input.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/WebProgramming/ICP2/RWD Task/input/input.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="rpc.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/WebProgramming/ICP2/rockPaperScissor/rpc.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="rpc.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/WebProgramming/ICP2/rpc.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.rpc.html (1)" />
+        <item itemvalue="JavaScript Debug.input.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.rpc.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de405eed-dcff-4e12-8e22-e026f9b9bf10" name="Default Changelist" comment="" />
+      <created>1559840755934</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559840755934</updated>
+      <workItem from="1559840758467" duration="15088000" />
+      <workItem from="1560007373051" duration="7207000" />
+      <workItem from="1560188709832" duration="97000" />
+      <workItem from="1560279612287" duration="12205000" />
+      <workItem from="1560295153660" duration="5879000" />
+      <workItem from="1560461788278" duration="2443000" />
+      <workItem from="1560483556508" duration="507000" />
+      <workItem from="1560526226322" duration="894000" />
+      <workItem from="1561056819034" duration="2224000" />
+      <workItem from="1561059129248" duration="1464000" />
+      <workItem from="1561060643101" duration="1286000" />
+      <workItem from="1561062306825" duration="830000" />
+      <workItem from="1561064029483" duration="4723000" />
+      <workItem from="1561391807678" duration="10118000" />
+      <workItem from="1561487619980" duration="11236000" />
+      <workItem from="1561499824242" duration="473000" />
+      <workItem from="1561500503986" duration="1559000" />
+      <workItem from="1561556157690" duration="2808000" />
+      <workItem from="1561729635699" duration="45000" />
+      <workItem from="1561898973001" duration="18890000" />
+      <workItem from="1561921790358" duration="15409000" />
+      <workItem from="1561988566045" duration="33000" />
+      <workItem from="1562102393933" duration="57000" />
+      <workItem from="1562708420530" duration="184000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added ICP2">
+      <created>1559857239997</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559857239997</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added screenshots">
+      <created>1560095925395</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560095925395</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added screenshots">
+      <created>1560096025390</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560096025390</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added ICP4">
+      <created>1560463385869</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560463385869</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added ICP3">
+      <created>1560483587784</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560483587784</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added ICP6">
+      <created>1561064574753</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561064574753</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added ICP6">
+      <created>1561068473561</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1561068473561</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added ICP7">
+      <created>1561493226317</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1561493226317</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added ICP7">
+      <created>1561557137146</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1561557137146</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added LAB1 knowledge graph">
+      <created>1561913674565</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1561913674565</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added LAB1 Snake Game">
+      <created>1561924864975</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1561924864975</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added LAB1 MOOC">
+      <created>1561949991896</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1561949991896</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added LAB1 MOOC">
+      <created>1561951758097</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1561951758097</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added LAB1 MOOC">
+      <created>1561951963462</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1561951963463</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added LAB1 MOOC">
+      <created>1561952392910</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1561952392910</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added LAB1 MOOC">
+      <created>1561952940564</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1561952940564</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added LAB1 MOOC">
+      <created>1561953096251</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1561953096251</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added ICP 8">
+      <created>1562102432774</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1562102432774</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added ICP 9">
+      <created>1562708528001</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1562708528001</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="115659000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1376" height="784" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2032885" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.4688" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.528" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3296" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3296" />
+      <window_info anchor="bottom" x="10" y="515" width="1338" height="273" id="Terminal" order="9" visible="true" weight="0.048" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added ICP2" />
+    <MESSAGE value="Added screenshots" />
+    <MESSAGE value="Added ICP4" />
+    <MESSAGE value="Added ICP3" />
+    <MESSAGE value="Added ICP6" />
+    <MESSAGE value="Added ICP7" />
+    <MESSAGE value="Added LAB1 knowledge graph" />
+    <MESSAGE value="Added LAB1 Snake Game" />
+    <MESSAGE value="Added LAB1 MOOC" />
+    <MESSAGE value="Added ICP 8" />
+    <MESSAGE value="Added ICP 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ICP 9" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ICP7/library management system/src/app/book/book.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICP7/library management system/src/app/book-service.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICP7/UseCase/MEAN_Stack_App/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/ICP7/UseCase/MEAN_Stack_App/package.json" />
+    <entry file="file://$PROJECT_DIR$/ICP7/UseCase/MEAN_Stack_App/js/app.js" />
+    <entry file="file://$PROJECT_DIR$/ICP7/UseCase/MEAN_Stack_App/addBook.html" />
+    <entry file="file://$PROJECT_DIR$/ICP7/UseCase/MEAN_Stack_App/node_modules/express/lib/router/index.js" />
+    <entry file="file://$PROJECT_DIR$/ICP7/UseCase/MEAN_Stack_App/home.html" />
+    <entry file="file://$PROJECT_DIR$/ICP7/UseCase/MEAN_Stack_App/mongo.js" />
+    <entry file="file://$PROJECT_DIR$/ICP7/MEAN_Stack_App/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICP7/MEAN_Stack_App/mongo.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/ngx-snake-master/ngx-snake-master/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/Lab1/ngx-snake-master/ngx-snake-master/src/app/app.constants.ts" />
+    <entry file="file://$PROJECT_DIR$/ICP2/Calculator/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICP3/Hangman_With_js/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICP3/PickMyFavoriteColor/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="60" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/snakegame/jquery.js" />
+    <entry file="file://$PROJECT_DIR$/Lab1/ngx-snake-master/ngx-snake-master/src/app/app.component.html" />
+    <entry file="file://$PROJECT_DIR$/Lab1/ngx-snake-master/ngx-snake-master/src/app/app.component.css" />
+    <entry file="file://$PROJECT_DIR$/Lab1/ngx-snake-master/ngx-snake-master/src/app/app.component.ts" />
+    <entry file="file://$PROJECT_DIR$/Lab1/ngx-snake-master/ngx-snake-master/src/app/app.module.ts" />
+    <entry file="file://$PROJECT_DIR$/Lab1/task2/snakegame.js" />
+    <entry file="file://$PROJECT_DIR$/Lab1/task2/index.html" />
+    <entry file="file://$PROJECT_DIR$/ICP4/Todo/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="191" selection-start-line="191" selection-end-line="191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/MOOCWebApp/jquery.js" />
+    <entry file="file://$PROJECT_DIR$/ICP3/ToDo_List/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="60" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICP4/Todo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="59" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/task1/about.html" />
+    <entry file="file://$PROJECT_DIR$/Lab1/task1/home.html" />
+    <entry file="file://$PROJECT_DIR$/Lab1/MOOCWebApp/script.js" />
+    <entry file="file://$PROJECT_DIR$/Lab1/MOOCWebApp/style.css" />
+    <entry file="file://$PROJECT_DIR$/Lab1/MOOCWebApp/angularjs.html" />
+    <entry file="file://$PROJECT_DIR$/Lab1/MOOCWebApp/index.html" />
+    <entry file="file://$PROJECT_DIR$/Lab1/MOOCWebApp/HTML.html" />
+    <entry file="file://$PROJECT_DIR$/Lab1/MOOCWebApp/bootstrap.html" />
+    <entry file="file://$PROJECT_DIR$/Lab1/task1/index.html" />
+    <entry file="file://$PROJECT_DIR$/Lab1/MOOC/signin.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/MOOC/signin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="27" column="14" lean-forward="true" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/MOOC/UI.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/MOOC/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/MOOC/health.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/googleKnowledgeGraph/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/MOOC/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3634">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/MOOC/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/MOOC/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/MOOC/mycourses.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/googleKnowledgeGraph/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/googleKnowledgeGraph/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="136" selection-start-line="8" selection-start-column="97" selection-end-line="8" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/snakeGame/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/snakeGame/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/snakeGame/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
