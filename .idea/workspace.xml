@@ -134,6 +134,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,7 +151,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,7 +158,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="11.7.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Rolecall" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -242,6 +242,7 @@
       <workItem from="1561988566045" duration="33000" />
       <workItem from="1562102393933" duration="57000" />
       <workItem from="1562708420530" duration="184000" />
+      <workItem from="1562877030622" duration="1106000" />
     </task>
     <task id="LOCAL-00001" summary="Added ICP2">
       <created>1559857239997</created>
@@ -376,11 +377,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562708528001</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added ICP 10">
+      <created>1562877151312</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1562877151312</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115659000" />
+    <option name="totallyTimeSpent" value="116765000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,7 +437,8 @@
     <MESSAGE value="Added LAB1 MOOC" />
     <MESSAGE value="Added ICP 8" />
     <MESSAGE value="Added ICP 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ICP 9" />
+    <MESSAGE value="Added ICP 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ICP 10" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ICP7/library management system/src/app/book/book.component.ts">
