@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingLeft="30dp"
+    android:paddingTop="16dp"
+    android:paddingRight="30dp"
+    android:paddingBottom="16dp"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/lblEmailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Email"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lblEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblEmailText"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lblBirthDayText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblEmail"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Birth Day"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lblBirthDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblBirthDayText"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/lblProfilePic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblBirthDay"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Profile pic"
+        android:textSize="20sp" />
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/friendProfilePicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblProfilePic"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp" />
+
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/friendProfilePicture"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:onClick="logout"
+        android:text="Logout"
+        android:textColor="@color/colorWhite" />
+
+
+</RelativeLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingLeft="30dp"
+    android:paddingTop="16dp"
+    android:paddingRight="30dp"
+    android:paddingBottom="16dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/lblLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Login"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lblUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblLogin"
+        android:layout_marginTop="10dp"
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblUsername" />
+
+    <TextView
+        android:id="@+id/lblUsernameError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtUsername"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorRed" />
+
+    <TextView
+        android:id="@+id/lblPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblUsernameError"
+        android:layout_marginTop="10dp"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblPassword"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/lblPasswordError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPassword"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorRed" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblPasswordError"
+        android:layout_alignLeft="@+id/lblPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:onClick="login"
+        android:text="Login"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblPasswordError"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/btnLogin"
+        android:background="@color/colorGreen"
+        android:onClick="register"
+        android:text="Register"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/btnFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/fbcolor"
+        android:onClick="faceBookButtonClick"
+        android:text="Faceboook"
+        android:textColor="@color/colorWhite" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRegister"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>
