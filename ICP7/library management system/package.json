@@ -22,7 +22,7 @@
     "@ng-bootstrap/ng-bootstrap": "^4.1.0",
     "bootstrap": "^4.3.1",
     "core-js": "^2.5.4",
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "mongoose": "^5.4.19",
     "normalize-port": "^1.0.0",
     "rxjs": "~6.3.3",
